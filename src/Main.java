@@ -7,13 +7,19 @@ import java.util.Scanner;
 * NAME: 
 *****************************************************************************************************
 */
+ public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int age;
+        String name;
+        String food;
+        System.out.println("Enter your age ");
+        age = sc.nextInt();
+        System.out.println("Enter your name ");
+        name = sc.next();
+        System.out.println("Enter your favourite food ");
+        food = sc.next();
 
-public class Main {
-
-    public static void main(String[] args) {
-
-
-
+        System.out.println("\nYour age is " + age + "\nYour first name is " + name + "\nYour favourite food is " + food );
 
     }
 
